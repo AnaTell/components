@@ -1,19 +1,23 @@
-*{
- background-color:#8fbbe6;
-}
 
-.content{
+
+.content
+{
  position:relative;
  z-index:4;
- margin-bottom:180px;
  background-color: #96CBFF;
- padding:10px;
- box-shadow: 10px 5px 2px 3px #6CB7FF;
+ padding:20px;
+ box-shadow: 10px 7px 2px 3px #6CB7FF;
+ margin-left:10px;
+ margin:0px 20px 180px 20px;
+ text-align:justify;
 }
 
-h1, p{
-  background-color:#96CBFF;
+p {
+  font-size:20px;
 }
+
+
+
 
 .footer{
   position:fixed;
