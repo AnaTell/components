@@ -15,6 +15,7 @@ a {
   text-decoration: none;
 }
 
+
 .btn-1 {
   color:white;
   font-weight:700;
@@ -70,5 +71,23 @@ a {
   transition:800ms ease all;
 }
 
+/* Here starts the CSS for bnt-3 */
+
+.btn-3 {
+  border-color: blue;
+  color: #fff;
+  box-shadow: 0 0 40px 40px blue inset, 0 0 0 0 blue;
+  transition: all 800ms ease-in-out;
+}
+
+  .btn-3:hover {
+    box-shadow: 0 0 10px 0 blue inset, 0 0 10px 4px blue;
+    color:blue;
+  }
+
 /* Here starts the CSS for bnt-4 */
+
+
+
+
 

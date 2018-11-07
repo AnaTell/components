@@ -1,0 +1,43 @@
+.card-1 {
+  height: 350px;
+  width:350px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.card-description {
+  display: flex;
+  align-items:center;
+  flex-direction:column;
+}
+
+.btn {
+  padding:0.5em;
+  margin:5vh;
+}
+
+.btn:hover {
+  background-color: white;
+  text-decoration: none;
+}
+
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+
