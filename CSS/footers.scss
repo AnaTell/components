@@ -1,0 +1,28 @@
+*{
+ background-color:#8fbbe6;
+}
+
+.content{
+ position:relative;
+ z-index:4;
+ margin-bottom:180px;
+ background-color: #96CBFF;
+ padding:10px;
+ box-shadow: 10px 5px 2px 3px #6CB7FF;
+}
+
+h1, p{
+  background-color:#96CBFF;
+}
+
+.footer{
+  position:fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height:100px;
+  text-align:center;
+  border-top:1px black;
+  background-color:;
+}
+
