@@ -1,0 +1,13 @@
+{
+  "name": "components",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:AnaTell/components.git",
+  "author": "Ana Tellez <ana.tellez.r@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "webpack": "^4.25.1",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
