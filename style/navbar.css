@@ -1,0 +1,84 @@
+
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+@supports (position: sticky) {
+  body {
+    padding-top: 0;
+  }
+
+  header {
+    position: sticky;
+  }
+
+}
+
+.navbar {
+  position: relative;
+  height: 80px;
+  width: 100%;
+  transition: 0.5s ease;
+  background-color:white;
+}
+
+.navbar .navigation {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  float: right;
+  margin-right: 5%;
+}
+
+.navbar .navigation .item {
+  list-style: none;
+  display: inline-block;
+  font-size: 18px;
+  padding: 5px;
+  font-weight: 300;
+  line-height: 80px;
+  margin-right: 20px;
+  transition: 0.5s ease;
+}
+
+
+p {
+  padding:0 40% 0 40%;
+}
+
+.navbar .navigation .item .contact {
+  display: inline-block;
+  background-color: #ffffff;
+  height: 40px;
+  line-height: 30px;
+  padding: 5px;
+  border-radius: 2px;
+  transition: 0.5s ease;
+}
+
+.navbar .navigation .item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar .logo {
+  float: left;
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 5%;
+  width: 70px;
+  height: 70px;
+  background-color: firebrick;
+  transition: 0.5s ease;
+}
+
+.navbar .logo img {
+  display: none;
+  /*This makes the logo not come out as broken. Replace once logo has been inserted*/
+}
+
+

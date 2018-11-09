@@ -6,6 +6,9 @@
   background-position: center;
   color: white;
   position: relative;
+    display: flex;
+  align-items:center;
+  flex-direction:column;
 }
 .card-category {
   position: absolute;
@@ -14,21 +17,22 @@
   font-size: 15px;
   text-transform: uppercase;
 }
-.card-description {
-  display: flex;
-  align-items:center;
-  flex-direction:column;
+
+h3 {
+ text-align: center;
+
+}
+.card-play {
+  display:none;
+  //display: flex;
+  //align-items:center;
+  //flex-direction:column;
 }
 
-.btn {
-  padding:0.5em;
-  margin:5vh;
+.card-1:hover .card-play {
+  display: block;
 }
 
-.btn:hover {
-  background-color: white;
-  text-decoration: none;
-}
 
 .card-link {
   position: absolute;
