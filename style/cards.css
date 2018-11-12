@@ -5,10 +5,31 @@
   background-size: cover !important;
   background-position: center;
   color: white;
-  position: relative;
-    display: flex;
+  position: relative;.card-play {
+  display:none;
+  display: flex;
   align-items:center;
   flex-direction:column;
+}
+.card-1:hover .card-play {
+  display: block;
+   position:absolute;
+  top:15%;
+  left:20%;
+}
+.card-play {
+  display:none;
+  /*display: flex;
+  align-items:center;
+  flex-direction:column;*/
+}
+.card-1:hover .card-play {
+  display: block;
+   position:absolute;
+  top:15%;
+  left:20%;
+}
+
 }
 .card-category {
   position: absolute;
@@ -22,16 +43,6 @@ h3 {
  text-align: center;
 
 }
-.card-play {
-  display:none;
-  //display: flex;
-  //align-items:center;
-  //flex-direction:column;
-}
-
-.card-1:hover .card-play {
-  display: block;
-}
 
 
 .card-link {
@@ -44,4 +55,38 @@ h3 {
   background: black;
   opacity: 0;
 }
+
+
+
+.card-play{
+  position: relative;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  color: white;
+  padding-top:25%;
+  background: #ed1c5b;
+  border-radius: 50%;
+  border: none;
+  transition: box-shadow 400ms cubic-bezier(.2,0,.7,1), transform 200ms cubic-bezier(.2,0,.7,1);
+
+}
+.card-play:after{
+  font-size: 2.5em;
+  line-height: 1.1em;
+}
+.card-play:hover{
+    transform: rotate(180deg);
+    box-shadow: 0 0 1px 15px rgba(138, 59, 88, 0.4), 0 0 1px 30px rgba(138, 59, 88, 0.1), 0 0 1px 45px rgba(138, 59, 88, 0.1);
+  }
+
+.play {
+  font-size: 20px;
+  position: absolute;
+  top:25%;
+  left:35%;
+  color: white;
+}
+
+
 

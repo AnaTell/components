@@ -89,9 +89,6 @@ a {
 
 
 .btn-4{
-  display:flex;
-  justify-content:center;
-  align-items:center;
   position: relative;
   z-index: 1;
   width: 40px;
@@ -108,15 +105,17 @@ a {
   font-size: 2.5em;
   line-height: 1.1em;
 }
-.btn-4:hover{
+.btn_4:hover{
     transform: rotate(180deg);
-    box-shadow: 0 0 1px 15px rgba(#8A3B58, 0.4),
-    0 0 1px 30px rgba(#8A3B58, 0.1),
-    0 0 1px 45px rgba(#8A3B58, 0.1);
+    box-shadow: 0 0 1px 15px rgba(138, 59, 88, 0.4), 0 0 1px 30px rgba(138, 59, 88, 0.1), 0 0 1px 45px rgba(138, 59, 88, 0.1);
   }
 
 .play {
   font-size: 30px;
+  position: absolute;
+  top:25%;
+  left: 30%;
+  color: white;
 }
 
 
